@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  ai:
+    openai:
+      temperature: 0.3
+      api-key: 'sk-proj-k3t5Mo2SrIqYEUhEdJFzT3BlbkFJtvGj2JxypZSj9us6yyYL'
+      model: gpt-3.5-turbo
+      embedding-base-url: https://api.openai.com
+      embedding-api-key: 'sk-proj-k3t5Mo2SrIqYEUhEdJFzT3BlbkFJtvGj2JxypZSj9us6yyYL'
+      embedding-model: text-embedding-ada-002
